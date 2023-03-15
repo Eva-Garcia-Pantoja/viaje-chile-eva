@@ -21,3 +21,5 @@ para ver o verificar las versiones del commit realizado
 git log
 ```
 Se agrega bootstrap local y se conecta con cdn. Secciones de la pagina web. 
+
+Se agrega tipografia desde google fonts en index.html y en estilo.css
