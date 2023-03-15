@@ -20,3 +20,4 @@ para ver o verificar las versiones del commit realizado
 ```bash
 git log
 ```
+Se agrega bootstrap local y se conecta con cdn. Secciones de la pagina web. 
