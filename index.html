@@ -1,99 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Se agrega autor y se cambia el titulo-->
-    <meta name="author" content="Eva Garcia Pantoja"/>     
+    <meta name="author" content="Eva Garcia Pantoja" />
     <title>Agencia de Viajes Chile</title>
     <!-- conectando bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 
     <!-- conectando bootstrap local-->
     <!-- <link rel="stylesheet" href="assets/css/bootstrap-5.3.0/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"> -->
 
     <!-- Se agrega tipografia de google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!--conectando archivo css -->
-    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/estilo.css" />
 
     <!--se conecta iconos de redes sociales desde awesome para agregarlos en la seccion de redes sociales-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!--se agrega icono favicon -->
-    <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/img/viajes.svg"
+      type="image/x-icon"
+    />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!--Barra de navegacion. con fixed-top para que la barra de navegacion se quede quieto -->
     <nav class="navbar navbar-expand-lg navbar-expand-md nav_color fixed-top">
-        <div class="container">
-            <a class="navbar-brand text-white"  href="#">
-                <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                Viajes Chile
-              </a>          
-          <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link text-white" href="#">Quines Somos</a>
-              <a class="nav-link text-white" href="#">Destacados</a>
-              <a class="nav-link text-white">Contacto</a>
-            </div>
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">
+          <img
+            src="assets/img/viajes.svg"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Viajes Chile
+        </a>
+        <button
+          class="navbar-toggler navbar-dark border-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active text-white" aria-current="page" href="#"
+              >Inicio</a
+            >
+            <a class="nav-link text-white" href="#">Quines Somos</a>
+            <a class="nav-link text-white" href="#">Destacados</a>
+            <a class="nav-link text-white">Contacto</a>
           </div>
         </div>
+      </div>
     </nav>
 
     <!--seccion header carrusel -->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-          </div>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="..." />
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="..." />
+        </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <!--seccion principal -->
-    <main>
+    <main class="bg-black">
 
+      <!--seccion quienes somos -->
+      <section class="container-fluid text-center py-4">
+        <div class="container text-white py-2">
+          <h1>¿Quines Somos?</h1>
 
-        
+          <div class="d-flex">
+            <div class="d-flex p-4">
+              <div class="col-sm-12 col-lg-4 my-3 px-4">
+                <div class="bg-info">
+                  <i class="fa-solid fa-plane fa-3x"></i>
+                </div>
+                <div class="card-body text-start">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Modi esse provident ipsum minima! Provident itaque
+                    blanditiis sequi nostrum quod autem, obcaecati voluptatum
+                    cum perspiciatis voluptas molestias illo. Doloribus, autem
+                    fuga.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-lg-4 my-3 px-4">
+                <div class="card-body text-start">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                    enim praesentium qui repudiandae ad voluptates soluta in
+                    illum, maxime pariatur ipsam officia ratione, distinctio,
+                    laborum ducimus amet veniam blanditiis dolorem.
+                  </p>
+                </div>
+                <div class="bg-info">
+                  <i class="fa-solid fa-mountain fa-3x"></i>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-lg-4 my-3 px-4">
+                <div class="bg-info">
+                  <i class="fa-solid fa-route fa-3x"></i>
+                </div>
+
+                <div class="card-body text-start">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis, omnis? Libero maxime explicabo, beatae asperiores
+                    corporis neque facere? Aperiam natus ipsa voluptatem illo
+                    enim possimus soluta exercitationem sint fugiat maxime?.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--seccion destacados -->
+
+      <section class="container-fluid text-white text-center py-4">
+        <h1>Destacados</h1>
+        <div class="container py-2">
+          <div class="row">
+            <div class="col p-4 d-flex">
+              <!-- copiado de clase cards de bootstrap -->
+              <div class="card bg-info text-start">
+                <img
+                  src="assets/img/card1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col p-4 d-flex">
+              <!-- copiado de clase cards de bootstrap -->
+              <div class="card bg-info text-start">
+                <img
+                  src="assets/img/card2.jpg"
+                  class="card-img-top card2"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col p-4 d-flex">
+              <!-- copiado de clase cards de bootstrap -->
+              <div class="card bg-info text-start">
+                <img
+                  src="assets/img/card3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col p-4 d-flex">
+              <!-- copiado de clase cards de bootstrap -->
+              <div class="card bg-info text-start">
+                <img
+                  src="assets/img/card4.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--seccion contacto -->
     </main>
 
-
     <!--pie de pagina -->
-    <footer>
-
-
-    </footer>
+    <footer></footer>
 
     <!---Se agrega el archivo de bootstrap para manejo local -->
     <!-- <script src="assets/css/bootstrap-5.3.0/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script> -->
 
     <!--Se  agrega el script del cdn del bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

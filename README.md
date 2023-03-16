@@ -29,3 +29,9 @@ Se conecta iconos de redes sociales de awesome y tambien se agrega icono favicon
 ## pasos la barra de navegacion y el encabezamiento
 Barra de navegación culminado, con aplicacion css y bootstrap.
 Se agrega la seccion header con carrusel usando bootstrap
+
+## Seccion quienes somos
+se utilizo columnas para la sección de quienes somos. 
+
+## Seccion Destacados
+Con el uso de botstrap se implementa la seccion destacados
