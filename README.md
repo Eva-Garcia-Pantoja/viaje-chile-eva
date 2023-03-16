@@ -35,3 +35,6 @@ se utilizo columnas para la sección de quienes somos.
 
 ## Seccion Destacados
 Con el uso de botstrap se implementa la seccion destacados
+
+
+
