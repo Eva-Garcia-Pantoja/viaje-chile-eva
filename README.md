@@ -38,6 +38,9 @@ Con el uso de botstrap se implementa la seccion destacados
 
 ## Seccion Contacto
 Con el uso de botstrap se implementa la seccion Contacto
+## Seccion pie de pagina
+se corrige seccion de contacto y pie de pagina
+
 
 
 
