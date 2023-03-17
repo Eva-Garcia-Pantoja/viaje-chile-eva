@@ -41,6 +41,10 @@ Con el uso de botstrap se implementa la seccion Contacto
 ## Seccion pie de pagina
 se corrige seccion de contacto y pie de pagina
 
+## Se agrega link del proyecto subido a github
+
+https://eva-garcia-pantoja.github.io/viaje-chile-eva/
+
 
 
 
