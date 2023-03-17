@@ -1,4 +1,5 @@
 # Agencia Viajes Chile
+https://eva-garcia-pantoja.github.io/viaje-chile-eva/
 
 ## Creacion de la estructura del proyecto
 Se crea las carpetas y file:    
@@ -31,19 +32,31 @@ Barra de navegación culminado, con aplicacion css y bootstrap.
 Se agrega la seccion header con carrusel usando bootstrap
 
 ## Seccion quienes somos
-se utilizo columnas para la sección de quienes somos. 
+se utilizo columnas para la sección de quienes somos.
 
+Se agrega codigo para que la seccion desaparezca en pantalla pequeña
+```bash
+class="d-none d-lg-block"
+```
 ## Seccion Destacados
 Con el uso de botstrap se implementa la seccion destacados
 
 ## Seccion Contacto
 Con el uso de botstrap se implementa la seccion Contacto
+
 ## Seccion pie de pagina
-se corrige seccion de contacto y pie de pagina
+se corrige pie de pagina el color de los iconos, el fondo y alineacion
+Se corrige tamaño de columna para texto e iconos
+```bash
+class="col-8"
+class="col-4"
+```
+Se corrige color de fondo e icono y el tamaño del icono
+```bash
+class="fa-2x btn btn-light text-info"
+```
 
-## Se agrega link del proyecto subido a github
 
-https://eva-garcia-pantoja.github.io/viaje-chile-eva/
 
 
 
