@@ -55,9 +55,7 @@ Se corrige color de fondo e icono y el tamaño del icono
 ```bash
 class="fa-2x btn btn-light text-info"
 ```
-
-
-
-
-
-
+Se agrega el link a las redes sociales y abra en una nueva pagina
+```bash
+href="aqui va el link de la red social" target="_blank"
+```
